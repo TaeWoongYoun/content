@@ -1,0 +1,34 @@
+/* Tab Area */
+ul li{
+    list-style: none
+}
+
+a{
+    text-decoration: none;
+}
+
+.tab_area {
+    width: 400px;
+}
+
+.btn_area a {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #e8a47f;
+}
+
+.notice_area ul li {
+    padding: 8px 5px;
+}
+
+.notice_area ul li:nth-child(2n) {
+    background-color: #e8a47f;
+}
+
+.notice_area ul li:nth-child(odd) {
+    background-color: rebeccapurple;
+}
